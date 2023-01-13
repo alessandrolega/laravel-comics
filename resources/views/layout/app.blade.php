@@ -18,6 +18,9 @@
     <div>
         @include('partials.jumbotron')
     </div>
+    <!--MAIN-->
+    <main>@yield('main-content')</main>
+
     
 </body>
 </html>
