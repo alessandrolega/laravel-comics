@@ -136,3 +136,29 @@ main {
     background-color: #0282f9;
     font-weight: bold;
 }
+
+// SOCIALS SECTION
+
+.section-socials {
+    background-color: #0282f9;
+}
+
+.section-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.section-cont img {
+    width: 50px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.span-socials {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: white;
+}

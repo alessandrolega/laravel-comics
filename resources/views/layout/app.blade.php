@@ -20,6 +20,8 @@
     </div>
     <!--MAIN-->
     <main>@yield('main-content')</main>
+    <!--SOCIALS-SECTION-->
+    <section class="section-socials">@yield('socials-section')</section>
 
     
 </body>
