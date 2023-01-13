@@ -29,7 +29,7 @@
         <nav>
             <ul class="header-ul">
                 <li class="header-li"><a class="navA" href="#">CHARACTERS</a></li>
-                <li class="header-li"><a class="navA" href="#">COMICS</a></li>
+                <li class="header-li"><a class="navA" href="/comics">COMICS</a></li>
                 <li class="header-li"><a class="navA" href="#">MOVIES</a></li>
                 <li class="header-li"><a class="navA" href="#">TV</a></li>
                 <li class="header-li"><a class="navA" href="#">GAMES</a></li>

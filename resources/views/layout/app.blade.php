@@ -14,6 +14,10 @@
     <header>
         @include('partials.header')
     </header>
+    <!--JUMBOTRON-->
+    <div>
+        @include('partials.jumbotron')
+    </div>
     
 </body>
 </html>
