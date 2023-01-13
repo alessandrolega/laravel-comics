@@ -22,6 +22,10 @@
     <main>@yield('main-content')</main>
     <!--SOCIALS-SECTION-->
     <section class="section-socials">@yield('socials-section')</section>
+    <!--FOOTER-->
+    <footer>
+        @include('partials.footer')
+    </footer>
 
     
 </body>
