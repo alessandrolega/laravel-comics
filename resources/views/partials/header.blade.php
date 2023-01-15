@@ -23,7 +23,9 @@
         <div class="header-cont">
              <!--LOGO CONT-->
         <div class="logo-cont">
-            <img src="{{asset('img/dc-logo.png')}}" alt="logo">
+            <a href="/">
+                <img src="{{asset('img/dc-logo.png')}}" alt="logo">
+            </a>
         </div>
         <!--NAVBAR MENU-->
         <nav>

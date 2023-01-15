@@ -7,12 +7,6 @@
     <title></title>
 </head>
 <body>
-    <div class="jumbotron">
-        <div class="current-series-cont">
-            <div class="currentSeries">
-                <p>CURRENT SERIES</p>
-            </div>
-        </div>  
-    </div>
+    <div class="jumbotron"></div>
 </body>
 </html>

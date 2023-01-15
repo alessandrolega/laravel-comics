@@ -96,9 +96,9 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  position: absolute;
-  bottom: -25px;
   font-weight: bold;
+  position: absolute;
+  top: 550px;
 }
 
 main {
