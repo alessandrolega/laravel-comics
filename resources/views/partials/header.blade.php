@@ -47,7 +47,10 @@
             <span class="span-search">Search <i class="fa-solid fa-magnifying-glass"></i></span>
             <div class="line-blue"></div>
         </div>
-        </div>  
+        </div>
+        <!--JUMBO-->
+            <div class="jumbotron"></div>
     </header>
+    
 </body>
 </html>

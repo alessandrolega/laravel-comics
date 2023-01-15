@@ -14,10 +14,6 @@
     <header>
         @include('partials.header')
     </header>
-    <!--JUMBOTRON-->
-    <div>
-        @include('partials.jumbotron')
-    </div>
     <!--MAIN-->
     <main>@yield('main-content')</main>
     <!--SOCIALS-SECTION-->

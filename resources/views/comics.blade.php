@@ -10,13 +10,16 @@
 </div> 
 <div class="main-cont">
     <div class="containerComic">
-        @foreach ($comic as $elem)
+        @foreach ($comic as $key => $elem)
             <div class="comicCard">
                 <div>
                     <img src="{{ $elem['thumb'] }}" alt="">
                 </div>
                 <div>
-                    <h5>{{ $elem['title'] }}</h5>
+                    <a href="{{ route('show.singlecomic', compact('key'))}}">
+                        <h5>{{ $elem['title'] }}</h5>
+                    </a>
+                    
                 </div>
             </div>
         @endforeach
