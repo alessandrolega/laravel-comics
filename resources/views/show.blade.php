@@ -29,8 +29,8 @@
             <p>{{$single_comic['description']}}</p>
         </div>
     </div>
-    <div class="adv-cont">
-        <img class="adv-img" src="{{asset('img/adv.jpg')}}" alt="">
+    <div class="pic-cont">
+        <img class="pic-img" src="{{asset('img/picadd.jpg')}}" alt="">
     </div>
     </div> 
 </div>

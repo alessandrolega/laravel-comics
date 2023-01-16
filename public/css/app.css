@@ -234,6 +234,7 @@ footer .footer-list li {
   display: flex;
   justify-content: space-between;
   padding-bottom: 100px;
+  align-items: center;
 }
 
 .single-comic-img {
@@ -246,12 +247,13 @@ footer .footer-list li {
   text-decoration: none;
 }
 
-.adv-cont {
+.pic-cont {
   flex-basis: 30%;
   display: block !important;
+  margin-left: 100px;
 }
 
-.adv-img {
+.pic-img {
   display: block !important;
 }
 
