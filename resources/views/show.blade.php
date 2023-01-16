@@ -30,6 +30,7 @@
         </div>
     </div>
     <div class="pic-cont">
+        <h4 class="text-end">ADVERTISEMENT</h4>
         <img class="pic-img" src="{{asset('img/picadd.jpg')}}" alt="">
     </div>
     </div> 
