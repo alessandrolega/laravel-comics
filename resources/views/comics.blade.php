@@ -3,31 +3,35 @@
 @section('page-title', "Comics")
 
 @section('main-content')
-<div class="current-series-cont">
-    <div class="currentSeries">
-        <p>CURRENT SERIES</p>
-    </div>
-</div> 
-<div class="main-cont">
-    <div class="containerComic">
-        @foreach ($comic as $key => $elem)
-            <div class="comicCard">
-                <div>
-                    <img src="{{ $elem['thumb'] }}" alt="">
-                </div>
-                <div>
-                    <a href="{{ route('show.singlecomic', compact('key'))}}">
-                        <h5>{{ $elem['title'] }}</h5>
-                    </a>
-                    
-                </div>
-            </div>
-        @endforeach
-        <div class="btn-cont">
-            <button class="btn-load">LOAD MORE</button>
+<div class="main1">
+    <div class="current-series-cont">
+        <div class="currentSeries">
+            <p>CURRENT SERIES</p>
         </div>
-    </div>
-</div>   
+    </div> 
+    <div class="main-cont">
+        <div class="containerComic">
+            @foreach ($comic as $key => $elem)
+                <div class="comicCard">
+                    <div>
+                        <img src="{{ $elem['thumb'] }}" alt="">
+                    </div>
+                    <div>
+                        <a class="comic-link" href="{{ route('show.singlecomic', compact('key'))}}">
+                            <h5>{{ $elem['title'] }}</h5>
+                        </a>
+                        
+                    </div>
+                </div>
+            @endforeach
+            <div class="btn-cont">
+                <button class="btn-load">LOAD MORE</button>
+            </div>
+        </div>
+    </div>   
+
+</div>
+
 @endsection
 
 @section('socials-section')

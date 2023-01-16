@@ -1,5 +1,5 @@
 
-    <div class="container">
+    <div class="cont">
         <div class="footer-list">
           <div>
               <h3>DC COMICS</h3>
